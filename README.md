@@ -6,7 +6,7 @@ Note: Api is working, but can't be accesed due to ip address being blocked in JI
 #Usage:
   This api can be used to validate login requests against webkiosk database.
   
-  To validate a request send a get request to 
+  To validate a request send a POST request to 
       
       http://188.166.249.229:9000/login_action
       
