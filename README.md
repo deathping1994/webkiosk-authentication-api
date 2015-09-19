@@ -1,5 +1,8 @@
 # webkiosk-authentication-api
 Webkiosk Authentication api to validate credentials of students and teachers of JIIT.
+Unlike the OAuth protocol this API does not keep you logged in, it provides just one time Login/verification.
+
+If you find any issues or bugs please report them with pictures/snapshots or inputs used.
 
 Note: Api is working, but can't be accesed due to ip address being blocked in JIIT so use some proxy or Data Pack.
 
@@ -43,8 +46,8 @@ Note: Api is working, but can't be accesed due to ip address being blocked in JI
                 		      });
   
   Other Possible responses include: 
-                {
-                  "error": "Account Locked. Contact ADMINISTRATOR."
+              {
+                  "error": "Account Locked. Contact Administrator."
               }
               
               {
