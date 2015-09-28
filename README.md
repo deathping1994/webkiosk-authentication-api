@@ -11,7 +11,7 @@ Note: Api is working, but can't be accesed due to ip address being blocked in JI
   
   To validate a request send a POST request to 
       
-      http://188.166.249.229:9000/login_action
+      http://188.166.249.229:5000/login_action
       
       with headers : Content-type: application/json
   
