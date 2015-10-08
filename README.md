@@ -16,11 +16,15 @@ Note: Api is working, but can't be accesed due to ip address being blocked in JI
       with headers : Content-type: application/json
   
   On correct credentials the response returned is json object:
-                  
-                  {
-                    "error": "",   // If some error occurs error feild of JSON response is not empty
-                    "success": "Succcessfully Logged in!"
-                  }
+            
+            {
+              "authkey": "$2a$12$ng2AR/NdmWXB66/A.scNvOyfHDHya3DhAzfLz6sxhGnmKXihaDeD2",
+              "error": "",
+              "success": "Succcessfully Logged in!",
+              "user": "13103489",
+              "usertype": "S"
+          }
+
   Sample Request using AngularJS:
   
                   var data={ 'user': "13103495",
