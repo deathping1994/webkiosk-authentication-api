@@ -1,3 +1,4 @@
+# *UPDATE: Domain for this api has changed kindly check for updated url below*
 # webkiosk-authentication-api
 Webkiosk Authentication api to validate credentials of students and teachers of JIIT.
 Unlike the OAuth protocol this API does not keep you logged in, it provides just one time Login/verification.
@@ -11,7 +12,7 @@ Note: Api is working, but can't be accesed due to ip address being blocked in JI
   
   To validate a request send a POST request to 
       
-      http://188.166.249.229:5000/login_action
+      http://probase.anip.xyz:8080/login_action
       
       with headers : Content-type: application/json
   
